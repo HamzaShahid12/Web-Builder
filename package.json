@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.4.0",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.1.0",
+        "axios": "^1.7.7",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.1",
+        "postcss-import": "^14.0.1",
+        "tailwindcss": "^3.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.6.0",
+        "acorn": "^8.7.0",
+        "grapesjs": "^0.21.13",
+        "grapesjs-blocks-basic": "^1.0.2",
+        "grapesjs-preset-webpage": "^1.0.3",
+        "sweetalert2": "^11.6.13",
+        "swiper": "^11.1.14",
+        "vue": "^3.2.26",
+        "vue-draggable-next": "^2.2.1",
+        "vue-loader": "^17.4.2",
+        "vue-meta": "^2.4.0",
+        "vue-router": "^4.0.12",
+        "vuedraggable": "^2.24.3",
+        "vuex": "^4.0.2"
+    }
+}
